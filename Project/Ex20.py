@@ -15,7 +15,8 @@ def rewind(f):
 
 
 def print_a_line(line_count, f):
-    # 按行输出
+    # 按行输出 readline 遇到 \n 自动停止
+    # read() 读取全部的文件.
     print(line_count, f.readline())
 
 
